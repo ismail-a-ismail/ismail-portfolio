@@ -62,7 +62,7 @@ function Projects() {
     },
     {
       id: 7,
-      title: "MOGO Website - ITI final project",
+      title: "MOGO Website - ITI project",
       image: mogoImg,
       category: "reactjs",
       github: "https://github.com/ismail-1998/iti-final-project",
@@ -141,7 +141,7 @@ function Projects() {
           return (
             <article key={id} className="projects_item">
               <div className="projects_item_image">
-                <img src={image} alt="project item img" />
+                <img src={image} alt="project item" />
               </div>
               <h3>{title}</h3>
               <div className="projects_item_btns">

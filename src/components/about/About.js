@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 
-import ME from "../../assets/images/ismail-pic.png";
+// import ME from "../../assets/images/ismail-pic.png";
 import ME1 from "../../assets/images/ismail-grad.jpeg";
 import { FaShieldAlt, FaUserCheck, FaFolderOpen } from "react-icons/fa";
 
@@ -14,7 +14,7 @@ function About() {
 
       <div className="container about_container">
         <div className="about_picture">
-          <img src={ME1} alt="About Image" />
+          <img src={ME1} alt="Me" />
         </div>
 
         <div className="about_content">
