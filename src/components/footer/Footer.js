@@ -1,12 +1,11 @@
 import React from "react";
 import { FaLinkedin, FaFacebookSquare, FaGithub } from "react-icons/fa";
-import ismailLogoDark from '../../assets/images/ismail-logo-d.png'
+import ismailLogoDark from "../../assets/images/ismail-logo-d.png";
 import ismailLogoLight from "../../assets/images/is.png";
 
 import "./footer.css";
 
-
-function Footer({theme}) {
+function Footer({ theme }) {
   return (
     <footer>
       <a href="#" className="footer_logo">
@@ -38,16 +37,22 @@ function Footer({theme}) {
         <a
           href="https://www.facebook.com/profile.php?id=100002701500239"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaFacebookSquare />
         </a>
         <a
           href="https://www.linkedin.com/in/ismail-ahmed-54a549195/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaLinkedin />
         </a>
-        <a href="https://github.com/ismail-1998" target="_blank">
+        <a
+          href="https://github.com/ismail-1998"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub />
         </a>
       </div>

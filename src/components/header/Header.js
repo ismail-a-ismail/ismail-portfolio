@@ -3,7 +3,7 @@ import "./header.css";
 
 import { FaLinkedin, FaFacebookSquare, FaGithub } from "react-icons/fa";
 import ME from "../../assets/images/ismail-pic.png";
-import ME1 from "../../assets/images/ismail-pic-1.png";
+// import ME1 from "../../assets/images/ismail-pic-1.png";
 import CV from "../../assets/ismail_CV.pdf";
 
 
@@ -31,13 +31,13 @@ function Header() {
         </div>
 
         <div className="header_links">
-          <a href="https://linkedin.com" target="_blank" title="LinkedIn Account">
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn Account">
             <FaLinkedin />
           </a>
-          <a href="https://facebook.com" target="_blank" title="Facebook Page">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" title="Facebook Page">
             <FaFacebookSquare />
           </a>
-          <a href="https://github.com" target="_blank" title="Github Account">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" title="Github Account">
             <FaGithub />
           </a>
         </div>

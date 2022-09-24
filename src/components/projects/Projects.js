@@ -122,14 +122,14 @@ function Projects() {
         {/* {console.log(categoryBtns)} */}
         {categoryBtns.map((category, index) => {
           return (
-            <a
+            <button
+            className="btn"
               onClick={() => btnEvents(category)}
               key={index}
-              className="btn"
               data-id={category}
             >
               {category}
-            </a>
+            </button>
           );
         })}
       </div>
@@ -145,10 +145,20 @@ function Projects() {
               </div>
               <h3>{title}</h3>
               <div className="projects_item_btns">
-                <a href={github} className="btn" target="_blank">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Live Demo
                 </a>
               </div>

@@ -3,8 +3,10 @@
   margin-bottom: 2.5rem;
 }
 
-.btn-container a {
+.btn-container button {
+  background-color: transparent;
   margin:10px;
+  font-size: 22px;
 }
 
 .projects_container {
