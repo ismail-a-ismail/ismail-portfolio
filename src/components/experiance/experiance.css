@@ -8,12 +8,12 @@
 
 .exp_frontend {
   background: var(--clr-second-bcg);
-  padding: 3.84rem 8rem;
+  padding: 3.84rem 6rem;
   border-radius: 3.2rem;
   border: 2px solid transparent;
   transition: var(--transition);
-  width: 650px;
-  max-width: 650px;
+  width: 550px;
+  height: 500px;
 }
 
 .exp_frontend:hover {
@@ -88,6 +88,7 @@
 @media screen and (max-width: 600px) {
   .exp_frontend {
     width: 100%;
-    padding: 3.2rem 0;
+    height: 450px;
+    padding-bottom: 0;
   }
 }

@@ -56,7 +56,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--clr-first-font);
   line-height: 1.7;
   background-color: var(--clr-first-bcg);
@@ -144,7 +144,7 @@ img {
 /* Media Queries */
 
 /* Mediam Devises */
-@media screen and(max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -154,7 +154,10 @@ img {
 }
 
 /* Small Devises */
-@media screen and(max-width:600px) {
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 1.5rem;
+  }
   .container {
     width: var(--container-width-sm);
   }

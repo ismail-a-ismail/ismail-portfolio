@@ -1,6 +1,6 @@
 .header {
   height: 100vh;
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .header_container {
@@ -20,13 +20,13 @@
   opacity: 0;
   animation: fadeUp 0.5s forwards;
   animation-delay: 0.5s;
-  margin-bottom: -15px;
 }
 
 .header h1 {
   opacity: 0;
   animation: scale 0.5s forwards;
-  font-size: 45px;
+  font-size: 40px;
+  margin: -15px 0;
 }
 
 .header h4 {
@@ -37,7 +37,7 @@
 
 
 .header_btns {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -66,8 +66,8 @@
 
 .header_picture {
   background: linear-gradient(var(--clr-second-font), transparent);
-  width: 35rem;
-  height: 48rem;
+  width: 30rem;
+  height: 43rem;
   border-radius: 19.2rem 19.2rem 0 0;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
@@ -82,14 +82,19 @@
 }
 
 /* Small Devises */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+  .header_content h1 {
+    font-size: 32px;
+    margin: -10px 0;
+  }
+
   .header_links,
   .scroll_down {
     display: none;
   }
 
   .header_picture {
-    transform: scale(0.8);
+    transform: scale(0.85);
   }
 }
 

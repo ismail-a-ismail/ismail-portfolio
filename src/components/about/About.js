@@ -1,8 +1,7 @@
 import React from "react";
 import "./about.css";
 
-// import ME from "../../assets/images/ismail-pic.png";
-import ME1 from "../../assets/images/ismail-grad.jpeg";
+import ME from "../../assets/images/ismail-grad.jpeg";
 import { FaShieldAlt, FaUserCheck, FaFolderOpen } from "react-icons/fa";
 
 
@@ -14,12 +13,11 @@ function About() {
 
       <div className="container about_container">
         <div className="about_picture">
-          <img src={ME1} alt="Me" />
+          <img src={ME} alt="Me" />
         </div>
 
         <div className="about_content">
           <div className="about_boxs">
-            
             <article className="about_boxs_item">
               <FaShieldAlt className="about_icon" />
               <h5>Experience</h5>
@@ -42,13 +40,25 @@ function About() {
           <ul className="about_list">
             <li>
               Graduated from faculty of Computer Science and IT <br /> -
-              <a href="https://www.facebook.com/ACU.Official/" target="_blank">
+              <a
+                href="https://www.facebook.com/ACU.Official/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {" "}
                 Ahram Candian University
               </a>{" "}
-              -<a href=""> Graduation Certificate</a>
+              -{" "}
+              <a
+                href="https://drive.google.com/file/d/1_nMHyBW4VxbkuQzvqHGvGVDFHe6KmK85/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Graduation Certificate
+              </a>
             </li>
             <li>3+ years of Experince in Front End Development</li>
+
             {/* <li>
               Member at
               <a href="https://www.facebook.com/ACUCSSU/" target="_blank">
