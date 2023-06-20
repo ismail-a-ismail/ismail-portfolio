@@ -2,7 +2,7 @@
   "name": "ismail-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ismail-1998.github.io/ismail-portfolio",
+  "homepage": "https://ismail-a-ismail.github.io/ismail-portfolio/",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.5",
