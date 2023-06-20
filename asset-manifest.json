@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ismail-portfolio/static/css/main.38e8652e.css",
+    "main.js": "/ismail-portfolio/static/js/main.4bc8f141.js",
+    "static/media/TRVLImg.png": "/ismail-portfolio/static/media/TRVLImg.b5164870cb5875e1d915.png",
+    "static/media/theRoseImg.png": "/ismail-portfolio/static/media/theRoseImg.d87ea586fbe68777a47b.png",
+    "static/media/MasaredWebsiteImg.png": "/ismail-portfolio/static/media/MasaredWebsiteImg.94055b83a41ab10147a5.png",
+    "static/media/agencyWebsiteImg.png": "/ismail-portfolio/static/media/agencyWebsiteImg.702a841b29145fbe507f.png",
+    "static/media/ismail_CV.pdf": "/ismail-portfolio/static/media/ismail_CV.0d0ad89eac0ef520dcae.pdf",
+    "static/media/simpleProfileImg.png": "/ismail-portfolio/static/media/simpleProfileImg.ee0ca095f97d843e35ac.png",
+    "static/media/todoImg.png": "/ismail-portfolio/static/media/todoImg.7a1433397d9b8126dc7a.png",
+    "static/media/ismail-grad.jpeg": "/ismail-portfolio/static/media/ismail-grad.443ca019e85a69f921e6.jpeg",
+    "static/media/mogoImg.png": "/ismail-portfolio/static/media/mogoImg.5071e6db01fdd23f9a7a.png",
+    "static/media/ismail-pic.png": "/ismail-portfolio/static/media/ismail-pic.f5ee8503027472f3ea1c.png",
+    "static/media/productManagementSysImg.png": "/ismail-portfolio/static/media/productManagementSysImg.17b687b169c11976ce42.png",
+    "index.html": "/ismail-portfolio/index.html",
+    "main.38e8652e.css.map": "/ismail-portfolio/static/css/main.38e8652e.css.map",
+    "main.4bc8f141.js.map": "/ismail-portfolio/static/js/main.4bc8f141.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38e8652e.css",
+    "static/js/main.4bc8f141.js"
+  ]
+}
